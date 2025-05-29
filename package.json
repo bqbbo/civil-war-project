@@ -1,0 +1,19 @@
+{
+    "name": "civil-war-project",
+    "version": "1.0.0",
+    "description": "Civil war school project written using React.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "echo ''"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bqbbo/civil-war-project.git"
+    },
+    "author": "bqbbo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bqbbo/civil-war-project/issues"
+    },
+    "homepage": "https://github.com/bqbbo/civil-war-project#readme"
+}
