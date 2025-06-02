@@ -1,19 +1,23 @@
 {
     "name": "civil-war-project",
-    "version": "1.0.0",
-    "description": "Civil war school project written using React.",
-    "main": "index.js",
+    "version": "0.1.0",
+    "private": true,
     "scripts": {
-        "lint": "echo ''"
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/bqbbo/civil-war-project.git"
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "next": "15.3.3"
     },
-    "author": "bqbbo",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/bqbbo/civil-war-project/issues"
-    },
-    "homepage": "https://github.com/bqbbo/civil-war-project#readme"
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4",
+        "tailwindcss": "^4",
+        "eslint": "^9",
+        "eslint-config-next": "15.3.3",
+        "@eslint/eslintrc": "^3"
+    }
 }
