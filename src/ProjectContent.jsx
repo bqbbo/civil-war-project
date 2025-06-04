@@ -8,12 +8,12 @@ export default function ProjectContent() {
 
     return (
         <div className="main-content">
-            <SlideContainer
+            <SlideInfoContainer
                 slideData={slideData}
                 currentSlide={currentSlide}
                 setCurrentSlide={setCurrentSlide}
             />
-            <SlideInfoContainer
+            <SlideContainer
                 slideData={slideData}
                 currentSlide={currentSlide}
                 setCurrentSlide={setCurrentSlide}
