@@ -1,7 +1,7 @@
 export const slideData = [
     {
         key: "intro",
-        title: "Welcome to Civil Rights After the Civil War",
+        title: "Welcome to Civil Rights After the War",
         className: "intro-slide",
         content: (
             <>
@@ -18,7 +18,7 @@ export const slideData = [
     },
     {
         key: "reconstruction",
-        title: "Reconstruction Era (1865-1877)",
+        title: "Reconstruction Era",
         className: "reconstruction-slide",
         content: (
             <>
@@ -35,26 +35,8 @@ export const slideData = [
         ),
     },
     {
-        key: "freedmans-bureau",
-        title: "Freedman's Bureau (1865-1872)",
-        className: "freedmans-bureau-slide",
-        content: (
-            <>
-                <p>
-                    The Bureau of Refugees, Freedmen, and Abandoned Lands
-                    provided aid to formerly enslaved people.
-                </p>
-                <ul>
-                    <li>Education and healthcare</li>
-                    <li>Legal assistance</li>
-                    <li>Employment opportunities</li>
-                </ul>
-            </>
-        ),
-    },
-    {
         key: "black-codes",
-        title: "Black Codes (1865-1866)",
+        title: "Black Codes",
         className: "black-codes-slide",
         content: (
             <>
@@ -163,7 +145,7 @@ export const slideData = [
     },
     {
         key: "plessy-ferguson",
-        title: "Plessy v. Ferguson",
+        title: "Plessy v. Ferguson, 1896",
         className: "plessy-ferguson-slide",
         content: (
             <>
