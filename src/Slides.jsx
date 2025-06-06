@@ -10,8 +10,8 @@ export const slideData = [
                     America following the Civil War.
                 </p>
                 <p>
-                    Navigate through the slides to learn about key legislation,
-                    court cases, and social changes.
+                    There's a lot to cover: legislation, court cases,
+                    amendments, and more!
                 </p>
             </>
         ),
@@ -23,14 +23,26 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    The Reconstruction era was a period of rebuilding and reform
-                    following the Civil War.
+                    The period of time after the Civil War was called the
+                    Reconstruction Era. It lasted from 1865 to 1877 and was a
+                    time of rebuilding the South and integrating freed slaves
+                    into society.
                 </p>
-                <ul>
-                    <li>Rebuilding the South</li>
-                    <li>Integrating freed slaves into society</li>
-                    <li>Political and social reforms</li>
-                </ul>
+                <p>
+                    Following the Civil War, there were four million newly freed
+                    slaves in the South, but they had no clear rights or
+                    liberties to guide them.
+                </p>
+                <p>
+                    Over the next decade, Congress would pass laws, form public
+                    services, and enact new amendments that aimed to establish
+                    civil rights for African Americans, but these laws were
+                    often met with resistance and were not always enforced.
+                </p>
+                <p>
+                    What were some of these laws, and why may they have been
+                    resisted by Southern states?
+                </p>
             </>
         ),
     },
@@ -41,14 +53,31 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    Laws passed by Southern states to restrict the freedom of
-                    African Americans.
+                    Almost immediately following the War, Southern states passed{" "}
+                    <strong>Black Codes</strong>. These were laws designed
+                    specifically to limit the rights of African Americans and
+                    maintain white supremacy in the South.
                 </p>
-                <ul>
-                    <li>Limited employment opportunities</li>
-                    <li>Restricted movement and assembly</li>
-                    <li>Aimed to maintain white supremacy</li>
-                </ul>
+                <p>
+                    For example, many Black Codes restricted the ability of:
+                    <ul>
+                        <li>Loitering</li>
+                        <li>Property Ownership</li>
+                        <li>Testifying in Court</li>
+                        <li>Homelessness</li>
+                    </ul>
+                </p>
+                <p>
+                    Southern states used these laws to continue to control
+                    African Americans, pressure blacks into low paying labor
+                    jobs and keeping blacks in submission, much like slavery
+                    again.
+                </p>
+                <p>
+                    The North did not respond to this well, and released a
+                    flurry of legislation aimed at protecting the rights of
+                    African Americans and countering Black Codes.
+                </p>
             </>
         ),
     },
@@ -59,8 +88,34 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide discusses the Civil Rights Act of 1866 and its
-                    implications.
+                    Congress took a historical step, repassing a bill even after
+                    being vetoed by President Andrew Johnson, making it one of
+                    the first laws to pass despite presidential rejection. This
+                    bill was the <strong>Civil Rights Act of 1866</strong>, a
+                    direct response to the South's Black Codes.
+                </p>
+                <p>
+                    This bill stated several important things:
+                    <ul>
+                        <li>
+                            All persons born in the United States are citizens.
+                        </li>
+                        <li>
+                            All citizens are entitled to the same rights and
+                            protections under the law, regardless of race,
+                            color, or ethnicity.
+                        </li>
+                        <li>
+                            Citizens have the right to make contracts, sue, give
+                            evidence in court, and own property.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    The act essentially nullified the Black Codes, but many
+                    Southern states opposed to fully implement its mandates.
+                    Congress would have to try even harder, with future
+                    legislation and amendments.
                 </p>
             </>
         ),
@@ -72,8 +127,38 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide covers the Reconstruction Amendments and their
-                    significance in American history.
+                    Following the Civil War, three new amendments were added to
+                    the Constitution, known as the{" "}
+                    <strong>Reconstruction Amendments</strong>. These were the
+                    13th, 14th, and 15th Amendments. Their purpose: cover all
+                    bases and ensure civil rights for those who needed it.
+                </p>
+                <h2>13th Amendment</h2>
+                <p>
+                    The 13th Amendment was ratified in 1865 and abolished
+                    slavery and involuntary servitude, except as punishment for
+                    a crime. Slavery could no longer exist under the 10th
+                    Amendment like it had before the Civil War, and this
+                    amendment was a significant step towards ensuring equality
+                    for all Americans.
+                </p>
+                <h2>14th Amendment</h2>
+                <p>
+                    The 14th Amendment was ratified in 1868 and granted
+                    citizenship to all persons born or naturalized in the United
+                    States, including former slaves. It guaranteed equal
+                    protections under the law and due process to{" "}
+                    <strong>all</strong> citizens, regardless of race, color, or
+                    ethnicity. This required states to respect the civil
+                    liberties of African Americans.
+                </p>
+                <h2>15th Amendment</h2>
+                <p>
+                    The 15th Amendment was ratified in 1870 and prohibited
+                    rejecting the right to vote based on race, color, or
+                    previous condition of servitude. This means formerly
+                    enslaved persons were now allowed to vote, and it was a
+                    major step towards political equality for African Americans.
                 </p>
             </>
         ),
@@ -85,8 +170,30 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide discusses the Enforcement Acts and their role in
-                    protecting civil rights.
+                    While the Reconstruction Amendments were a significant step
+                    towards ensuring civil rights for African Americans, other
+                    violence began stirring in the South. A notorious group
+                    known as the KKK (Ku Klux Klan) begun terrorizing blacks.
+                </p>
+                <p>
+                    Blacks who excercised their rights, like:
+                    <ul>
+                        <li>Voting in elections</li>
+                        <li>Running for public office</li>
+                        <li>Serving on juries</li>
+                    </ul>
+                    were all at risk of being violently targeted by the KKK.
+                </p>
+                <p>
+                    The federal government responded to this violence with a
+                    series of Enforcement Acts, aimed at outlawing any
+                    interference with civil rights that were guaranteed in the
+                    14th and 15th amendments.
+                </p>
+                <p>
+                    These acts lead to multiple KKK members being arrested, and
+                    African Americans freely exercised their rights for a brief
+                    period.
                 </p>
             </>
         ),
