@@ -61,7 +61,7 @@ export const slideData = [
         content: (
             <>
                 <ImageContainer
-                    imageSource={"./img/black-codes.jpg"}
+                    imageSource={"/img/black-codes.jpg"}
                     altText={"Black men escorted by police officers"}
                 />
                 <p>
