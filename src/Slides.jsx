@@ -1,3 +1,5 @@
+import ImageContainer from "./ImageContainer";
+
 export const slideData = [
     {
         key: "intro",
@@ -22,6 +24,12 @@ export const slideData = [
         className: "reconstruction-slide",
         content: (
             <>
+                <ImageContainer
+                    imageSource={
+                        "https://assets.coursehero.com/study-guides/lumen/images/ushistory2ay/politics-of-reconstruction-2/15_The_First_Vote_LC-DIG-ppmsca-37947-1000x5623.jpg"
+                    }
+                    altText={"Black man casting his vote for the first time"}
+                />
                 <p>
                     The period of time after the Civil War was called the
                     Reconstruction Era. It lasted from 1865 to 1877 and was a
@@ -52,6 +60,10 @@ export const slideData = [
         className: "black-codes-slide",
         content: (
             <>
+                <ImageContainer
+                    imageSource={"./img/black-codes.jpg"}
+                    altText={"Black men escorted by police officers"}
+                />
                 <p>
                     Almost immediately following the War, Southern states passed{" "}
                     <strong>Black Codes</strong>. These were laws designed
@@ -169,6 +181,12 @@ export const slideData = [
         className: "enforcement-acts-slide",
         content: (
             <>
+                <ImageContainer
+                    imageSource={
+                        "https://cdn.britannica.com/41/190741-050-86537C0E/cross-Ku-Klux-Klan-Tennessee-1948.jpg"
+                    }
+                    altText={"KKK burning a cross"}
+                />
                 <p>
                     While the Reconstruction Amendments were a significant step
                     towards ensuring civil rights for African Americans, other
@@ -193,7 +211,8 @@ export const slideData = [
                 <p>
                     These acts lead to multiple KKK members being arrested, and
                     African Americans freely exercised their rights for a brief
-                    period.
+                    period. The KKK act was later deemed unconstitutional, but
+                    the group had practically disappeared by then.
                 </p>
             </>
         ),
@@ -243,6 +262,14 @@ export const slideData = [
         className: "post-reconstruction-slide",
         content: (
             <>
+                <ImageContainer
+                    imageSource={
+                        "https://cdn.britannica.com/24/187924-050-D8384718/Andrew-Johnson-soldiers-Confederate-White-House-Washington-1865.jpg"
+                    }
+                    altText={
+                        "Andrew Johnson, soldiers, and the White House in 1865"
+                    }
+                />
                 <p>
                     In 1877, the Democratic and Republican parties reached an
                     agreement. In return for President Hayes being elected to
@@ -329,6 +356,12 @@ export const slideData = [
         className: "jim-crow-laws-slide",
         content: (
             <>
+                <ImageContainer
+                    imageSource={
+                        "https://i.natgeofe.com/n/0ab72699-cdb0-4a3c-b161-bc0bc1936fe0/1jimcrow.jpg"
+                    }
+                    altText={"'Here lies Jim Crow'"}
+                />
                 <p>
                     Jim Crow laws were state and local laws that enforced racial
                     segregation in the Southern United States. They were enacted
@@ -380,9 +413,108 @@ export const slideData = [
         className: "citations-slide",
         content: (
             <>
+                <h1 style={{ textAlign: "center" }}>Works Cited</h1>
                 <p>
-                    This slide provides citations for the sources used in the
-                    project.
+                    Benson, Sonia, et al. "Fourteenth Amendment." UXL
+                    Encyclopedia of U.S. History, vol. 3, UXL, 2009, pp. 577-80.
+                    Gale in Context: Middle School,
+                    link.gale.com/apps/doc/CX3048900229/
+                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=2390d437. Accessed 22
+                    May 2025.
+                </p>
+                <p>
+                    ---. "Radical Republicans." UXL Encyclopedia of U.S.
+                    History, vol. 7, UXL, 2009, pp. 1285-86. Gale in Context:
+                    Middle School, link.gale.com/apps/doc/CX3048900505/
+                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=f2630b40. Accessed 22
+                    May 2025.
+                </p>
+                <p>
+                    ---. "Thirteenth Amendment." UXL Encyclopedia of U.S.
+                    History, vol. 8, UXL, 2009, pp. 1553-55. Gale in Context:
+                    Middle School, link.gale.com/apps/doc/CX3048900610/
+                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=24071897. Accessed 22
+                    May 2025.
+                </p>
+                <p>
+                    "Black Codes." History,
+                    www.history.com/articles/black-codes. Accessed 29 May 2025.
+                </p>
+                <p>
+                    "Civil Rights Act of 1875, 'An Act to Protect All Citizens
+                    in Their Civil and Legal Rights.'" National Constitution
+                    Center, constitutioncenter.org/the-constitution/
+                    historic-document-library/detail/
+                    civil-rights-act-of-1875-march-1-1875-an-act-to-protect-all-citizens-in-their-civil-and-legal-rights.
+                    Accessed 30 May 2025.
+                </p>
+                <p>
+                    "Civil Rights Act of 1866." Britannica,
+                    www.britannica.com/topic/
+                    Civil-Rights-Act-United-States-1866. Accessed 29 May 2025.
+                </p>
+                <p>
+                    "Confederate Soldiers." Britannica,
+                    cdn.britannica.com/24/187924-050-D8384718/
+                    Andrew-Johnson-soldiers-Confederate-White-House-Washington-1865.jpg.
+                    Accessed 31 May 2025.
+                </p>
+                <p>
+                    "The First Vote." Coursehero,
+                    assets.coursehero.com/study-guides/lumen/images/ushistory2ay/
+                    politics-of-reconstruction-2/15_The_First_Vote_LC-DIG-ppmsca-37947-1000x5623.jpg.
+                    Accessed 31 May 2025. "Here Lies Jim Crow." NatGeofe,
+                    i.natgeofe.com/n/0ab72699-cdb0-4a3c-b161-bc0bc1936fe0/1jimcrow.jpg.
+                    Accessed 21 May 2025.
+                </p>
+                <p>
+                    "KKK Burning a Cross." Britannica,
+                    cdn.britannica.com/41/190741-050-86537C0E/
+                    cross-Ku-Klux-Klan-Tennessee-1948.jpg. Accessed 31 May 2025.
+                </p>
+                <p>
+                    "Law and African Americans: After the Civil War." UXL
+                    Multicultural: A Comprehensive Resource on African
+                    Americans, Hispanic Americans and Native North Americans,
+                    UXL, 2003. Gale in Context: Middle School,
+                    link.gale.com/apps/doc/EJ2107200198/
+                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=a5ea9c54. Accessed 22
+                    May 2025.
+                </p>
+                <p>
+                    "Law and African Americans: After the Civil War." UXL
+                    Multicultural: A Comprehensive Resource on African
+                    Americans, Hispanic Americans and Native North Americans,
+                    UXL, 2003. Gale in Context: Middle School,
+                    link.gale.com/apps/doc/EJ2107200198/
+                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=a5ea9c54. Accessed 22
+                    May 2025.
+                </p>
+                <p>
+                    Murphy, Richard W. The Nation Reunited : War's Aftermath.
+                    Time-Life Books, 1987.
+                </p>
+                <p>
+                    Naden, Corinne J., and Rose Blue. Civil War Ends :
+                    Assassination, Reconstruction, and the Aftermath. Raintree
+                    Steck-Vaughn, 2000.
+                </p>
+                <p>
+                    "Oct. 22, 1883: Frederick Douglass Denounces Supreme Court
+                    Ruling." Zinn Education Project,
+                    www.zinnedproject.org/news/tdih/frederick-douglass-denounces-supreme-court-ruling.
+                    Accessed 31 May 2025.
+                </p>
+                <p>
+                    "Plessy v. Ferguson." History,
+                    www.history.com/articles/plessy-v-ferguson. Accessed 31 May
+                    2025.
+                </p>
+                <p>
+                    Wright, Kianna. "The Enforcement Act of 1870 (1870-1871)."
+                    BlackPast, 12 Dec. 2019,
+                    www.blackpast.org/african-american-history/the-enforcement-act-of-1870-1870-1871/.
+                    Accessed 31 May 2025.
                 </p>
             </>
         ),
