@@ -205,8 +205,34 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide explains the Civil Rights Act of 1875 and its
-                    historical context.
+                    The Civil Rights Act of 1875 was one of the last efforts
+                    made during the Reconstruction to further protect civil
+                    liberties. It was targeted to private companies who racially
+                    profiled their customers.
+                </p>
+                <p>
+                    This bill stated:
+                    <ul>
+                        <li>
+                            All persons are entitled to full and equal enjoyment
+                            of public accommodations, like transportation inns,
+                            and theatres.
+                        </li>
+                        <li>
+                            No person can be denied access to these public
+                            accommodations based on race, color, or previous
+                            condition of servitude.
+                        </li>
+                        <li>
+                            African Americans cannot be excluded from jury duty.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    This law would've completely banned racial discrimination
+                    nation wide. However, the act was almost never enforced in
+                    the south, and was later gutted by the Supreme Court during
+                    the Civil Rights Cases of 1883.
                 </p>
             </>
         ),
@@ -218,21 +244,23 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide discusses the events and changes that occurred
-                    after the Reconstruction era.
+                    In 1877, the Democratic and Republican parties reached an
+                    agreement. In return for President Hayes being elected to
+                    office, federal troops would be removed from the South,
+                    effectively ending the Reconstruction Era.
                 </p>
-            </>
-        ),
-    },
-    {
-        key: "jim-crow-laws",
-        title: "Jim Crow Laws",
-        className: "jim-crow-laws-slide",
-        content: (
-            <>
                 <p>
-                    This slide covers the Jim Crow laws and their impact on
-                    racial segregation in the United States.
+                    This left African Americans vulnerable to descrimination and
+                    violence. Southern states quickly passed laws to:
+                    <ul>
+                        <li>Restrict voting rights</li>
+                        <li>Enforce racial segregation</li>
+                        <li>Limit economic opportunities</li>
+                        <li>Maintain white supremacy</li>
+                    </ul>
+                    There was no longer any federal enforcement of civil rights
+                    laws, and the South was free to enact their own laws without
+                    any federal interference.
                 </p>
             </>
         ),
@@ -244,8 +272,28 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide discusses the Civil Rights Cases of 1883 and
-                    their implications for civil rights in America.
+                    In 1883, the Supreme Court heard a series of cases deemed
+                    the Civil Rights Cases. They had major implications for the
+                    Reconstruction, striking down many civil rights protections
+                    that had been established in the previous years.
+                </p>
+                <p>
+                    The Supreme Court ruled:
+                    <ul>
+                        <li>
+                            The 14th amendment did not allow Congress to outlaw
+                            discrimination in the private sector.
+                        </li>
+                        <li>
+                            The 14th amendment only barred discrimination by
+                            state governments directly.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    This meant a large part of the Civil Rights Act of 1875 was
+                    unconstitutional, and essentially legalized private
+                    segregation.
                 </p>
             </>
         ),
@@ -257,8 +305,46 @@ export const slideData = [
         content: (
             <>
                 <p>
-                    This slide explores the landmark Supreme Court case Plessy
-                    v. Ferguson and its doctrine of "separate but equal."
+                    Plessy v. Ferguson (1896) was an extremely important Supreme
+                    Court case that upheld the constitutionality of racial
+                    segregation under "separate but equal."
+                </p>
+                <p>
+                    Homer Plessy, a 7/8ths white man, was arrested for sitting
+                    in a whites-only train car. He argued that this violated his
+                    14th amendment rights.
+                </p>
+                <p>
+                    However, the Supreme Court ruled 7-1 that racial segregation
+                    was constitutional as long as the separate facilities were
+                    equal. This provided a legal basis for all Jim Crow laws and
+                    led to decades of segregation in the South.
+                </p>
+            </>
+        ),
+    },
+    {
+        key: "jim-crow-laws",
+        title: "Jim Crow Laws",
+        className: "jim-crow-laws-slide",
+        content: (
+            <>
+                <p>
+                    Jim Crow laws were state and local laws that enforced racial
+                    segregation in the Southern United States. They were enacted
+                    in the late 19th and early 20th centuries, following the
+                    Reconstruction Era.
+                </p>
+                <p>
+                    States would build entirely new public facilities for blacks
+                    and whites, adhering to the "separate but equal" policy.
+                    Often, these facilities were not equal at all.
+                </p>
+                <p>
+                    Blacks who attempted to use white facilities often faced
+                    violence and arrest. Jim Crow laws drowned the south,
+                    enforcing a system of racial oppression that would last for
+                    decades.
                 </p>
             </>
         ),
@@ -269,7 +355,22 @@ export const slideData = [
         className: "summary-slide",
         content: (
             <>
-                <p>This slide summarizes the key points of the project.</p>
+                <p>
+                    Following the Civil War and Reconstruction, the Supreme
+                    Court's decisions set the stage for the Jim Crow era. Many
+                    African Americans protested but faced significant backlash
+                    and violence. There was no significant change until the
+                    Civil Rights Movement, half a century later.
+                </p>
+                <p>
+                    The Reconstruction ultimately established rights for African
+                    Americans, including the right to vote and access to public
+                    facilities. However, it failed to provide lasting equality.
+                </p>
+                <p>
+                    The struggle for civil rights would continue for decades to
+                    come.
+                </p>
             </>
         ),
     },
@@ -287,14 +388,26 @@ export const slideData = [
         ),
     },
     {
-        key: "game-intro",
-        title: "Game",
+        key: "mock-trial",
+        title: "Mock Trial",
         className: "game-intro-slide",
         content: (
             <>
                 <p>
-                    This slide introduces an interactive game related to the
-                    project content.
+                    We will now conduct a mock trial of Plessy v. Ferguson. The
+                    class will split into two teams, and we will have one judge.
+                </p>
+                <p>
+                    Each team will present their arguments, and the judge will
+                    make a ruling based on the arguments, not the original
+                    outcome.
+                </p>
+                <h2>Background</h2>
+                <p>
+                    It is currently 1896. Homer Plessy (a 7/8ths white man) was
+                    arrested for sitting in a whites-only train car in
+                    Louisiana. He is now suing the state for violating his
+                    rights under the 14th Amendment.
                 </p>
             </>
         ),

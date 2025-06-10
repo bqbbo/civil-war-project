@@ -13,7 +13,7 @@ body {
     background: #f5f5f5;
     font-size: 16px;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* App Layout */
@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     background: white;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -35,10 +35,6 @@ body {
     text-align: center;
     border-bottom: 1px solid #2d3748;
     flex-shrink: 0;
-}
-
-.header::before {
-    display: none;
 }
 
 .header h1 {
@@ -187,7 +183,7 @@ body {
 /* Base Slide Styles */
 .slide {
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
     padding: 2.5rem;
     border-radius: 8px;
     background: white;
@@ -196,19 +192,7 @@ body {
     flex-direction: column;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     position: relative;
-    overflow: visible;
     min-height: fit-content;
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(15px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 .slide-header {
@@ -248,11 +232,13 @@ body {
     text-align: left;
     font-family: inherit;
     font-weight: 400;
+    width: 100%;
 }
 
 .slide .slide-content ul {
     margin: 1.5rem 0;
     padding-left: 2rem;
+    width: 100%;
 }
 
 .slide .slide-content li {
@@ -264,138 +250,117 @@ body {
     font-weight: 400;
 }
 
-/* Slide-specific styles - Enhanced borders with proper spacing */
-.intro-slide {
-    border-left: 8px solid #3182ce;
-    margin-left: 8px;
+.slide .slide-content h2 {
+    color: #2d3748;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    font-family: inherit;
+    width: 100%;
 }
 
+/* Slide-specific styles with consistent borders */
+.intro-slide {
+    border-left: 8px solid #3182ce;
+}
 .intro-slide .slide-title {
     color: #2b6cb0;
 }
 
 .reconstruction-slide {
     border-left: 8px solid #805ad5;
-    margin-left: 8px;
 }
-
 .reconstruction-slide .slide-title {
     color: #6b46c1;
 }
 
 .freedmans-bureau-slide {
     border-left: 8px solid #38a169;
-    margin-left: 8px;
 }
-
 .freedmans-bureau-slide .slide-title {
     color: #2f855a;
 }
 
 .black-codes-slide {
     border-left: 8px solid #dd6b20;
-    margin-left: 8px;
 }
-
 .black-codes-slide .slide-title {
     color: #c05621;
 }
 
 .civil-rights-act-1866-slide {
     border-left: 8px solid #d53f8c;
-    margin-left: 8px;
 }
-
 .civil-rights-act-1866-slide .slide-title {
     color: #b83280;
 }
 
 .reconstruction-amendments-slide {
     border-left: 8px solid #68d391;
-    margin-left: 8px;
 }
-
 .reconstruction-amendments-slide .slide-title {
     color: #48bb78;
 }
 
 .enforcement-acts-slide {
     border-left: 8px solid #f6ad55;
-    margin-left: 8px;
 }
-
 .enforcement-acts-slide .slide-title {
     color: #ed8936;
 }
 
 .civil-rights-act-1875-slide {
     border-left: 8px solid #4fd1c7;
-    margin-left: 8px;
 }
-
 .civil-rights-act-1875-slide .slide-title {
     color: #38b2ac;
 }
 
 .post-reconstruction-slide {
     border-left: 8px solid #a0aec0;
-    margin-left: 8px;
 }
-
 .post-reconstruction-slide .slide-title {
     color: #718096;
 }
 
 .jim-crow-laws-slide {
     border-left: 8px solid #fc8181;
-    margin-left: 8px;
 }
-
 .jim-crow-laws-slide .slide-title {
     color: #e53e3e;
 }
 
 .civil-rights-cases-1883-slide {
     border-left: 8px solid #7c3aed;
-    margin-left: 8px;
 }
-
 .civil-rights-cases-1883-slide .slide-title {
     color: #6d28d9;
 }
 
 .plessy-ferguson-slide {
     border-left: 8px solid #9f7aea;
-    margin-left: 8px;
 }
-
 .plessy-ferguson-slide .slide-title {
     color: #805ad5;
 }
 
 .summary-slide {
     border-left: 8px solid #0bc5ea;
-    margin-left: 8px;
 }
-
 .summary-slide .slide-title {
     color: #0891b2;
 }
 
 .citations-slide {
     border-left: 8px solid #a3bffa;
-    margin-left: 8px;
 }
-
 .citations-slide .slide-title {
     color: #667eea;
 }
 
 .game-intro-slide {
     border-left: 8px solid #f687b3;
-    margin-left: 8px;
 }
-
 .game-intro-slide .slide-title {
     color: #d53f8c;
 }
@@ -409,7 +374,6 @@ body {
     background: #f7fafc;
     border-top: 1px solid #e2e8f0;
     flex-shrink: 0;
-    overflow: hidden;
 }
 
 .slide-button {
@@ -460,55 +424,23 @@ body {
 .image-container {
     margin: 1.25rem 0;
     text-align: center;
+    width: 100%;
 }
 
 /* Responsive Design */
-@media (max-width: 1200px) {
-    .slide {
-        padding: 2rem;
-        margin-left: 6px;
-    }
-
-    .intro-slide,
-    .reconstruction-slide,
-    .freedmans-bureau-slide,
-    .black-codes-slide,
-    .civil-rights-act-1866-slide,
-    .reconstruction-amendments-slide,
-    .enforcement-acts-slide,
-    .civil-rights-act-1875-slide,
-    .post-reconstruction-slide,
-    .jim-crow-laws-slide,
-    .civil-rights-cases-1883-slide,
-    .plessy-ferguson-slide,
-    .summary-slide,
-    .citations-slide,
-    .game-intro-slide {
-        border-left-width: 6px;
-    }
-
-    .slide-title {
-        font-size: 2.2rem;
-    }
-
-    .slide .slide-content p {
-        font-size: 1.1rem;
-    }
-}
-
 @media (max-width: 1024px) {
     .main-content {
         flex-direction: column;
+        height: 100%;
     }
 
     .slide-info-container {
-        flex: none;
-        order: 0;
-        max-height: 180px;
+        flex: 0 0 auto;
+        max-height: 200px;
     }
 
     .slide-directory {
-        max-height: 100px;
+        max-height: 120px;
     }
 
     .slide-list {
@@ -523,31 +455,9 @@ body {
         margin-bottom: 0;
     }
 
-    .slide {
-        padding: 1.5rem;
-        margin-left: 4px;
-    }
-
-    .intro-slide,
-    .reconstruction-slide,
-    .freedmans-bureau-slide,
-    .black-codes-slide,
-    .civil-rights-act-1866-slide,
-    .reconstruction-amendments-slide,
-    .enforcement-acts-slide,
-    .civil-rights-act-1875-slide,
-    .post-reconstruction-slide,
-    .jim-crow-laws-slide,
-    .civil-rights-cases-1883-slide,
-    .plessy-ferguson-slide,
-    .summary-slide,
-    .citations-slide,
-    .game-intro-slide {
-        border-left-width: 4px;
-    }
-
-    .slide-title {
-        font-size: 2rem;
+    .slide-container {
+        flex: 1;
+        overflow: hidden;
     }
 }
 
@@ -566,34 +476,16 @@ body {
     }
 
     .slide {
-        padding: 1.25rem;
-        margin-left: 2px;
-    }
-
-    .intro-slide,
-    .reconstruction-slide,
-    .freedmans-bureau-slide,
-    .black-codes-slide,
-    .civil-rights-act-1866-slide,
-    .reconstruction-amendments-slide,
-    .enforcement-acts-slide,
-    .civil-rights-act-1875-slide,
-    .post-reconstruction-slide,
-    .jim-crow-laws-slide,
-    .civil-rights-cases-1883-slide,
-    .plessy-ferguson-slide,
-    .summary-slide,
-    .citations-slide,
-    .game-intro-slide {
-        border-left-width: 3px;
+        padding: 1.5rem;
+        max-width: 100%;
     }
 
     .slide-title {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .slide .slide-content p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .slide-buttons {
@@ -625,7 +517,6 @@ body {
 
     .slide {
         padding: 1rem;
-        margin-left: 2px;
     }
 
     .slide-title {
@@ -638,44 +529,30 @@ body {
     }
 }
 
-/* Custom Scrollbar - Only for slide directory */
-.slide-directory::-webkit-scrollbar {
-    width: 5px;
-}
-
-.slide-directory::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.slide-directory::-webkit-scrollbar-thumb {
-    background: #cbd5e0;
-    border-radius: 3px;
-}
-
-.slide-directory::-webkit-scrollbar-thumb:hover {
-    background: #a0aec0;
-}
-
-/* Custom Scrollbar for slide content - vertical only */
+/* Scrollbar Styles */
+.slide-directory::-webkit-scrollbar,
 .slide-content::-webkit-scrollbar {
     width: 6px;
 }
 
+.slide-directory::-webkit-scrollbar-track,
 .slide-content::-webkit-scrollbar-track {
     background: #f8f9fa;
     border-radius: 3px;
 }
 
+.slide-directory::-webkit-scrollbar-thumb,
 .slide-content::-webkit-scrollbar-thumb {
     background: #cbd5e0;
     border-radius: 3px;
 }
 
+.slide-directory::-webkit-scrollbar-thumb:hover,
 .slide-content::-webkit-scrollbar-thumb:hover {
     background: #a0aec0;
 }
 
-/* Loading Animation for Smooth Transitions */
+/* Animations */
 .slide-content {
     animation: fadeIn 0.3s ease-out;
 }
@@ -691,7 +568,7 @@ body {
     }
 }
 
-/* Focus States for Accessibility */
+/* Focus States */
 .slide-button:focus,
 .slide-link:focus {
     outline: 2px solid #4299e1;
