@@ -419,21 +419,21 @@ export const slideData = [
                     Encyclopedia of U.S. History, vol. 3, UXL, 2009, pp. 577-80.
                     Gale in Context: Middle School,
                     link.gale.com/apps/doc/CX3048900229/
-                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=2390d437. Accessed 22
+                    MSIC. Accessed 22
                     May 2025.
                 </p>
                 <p>
                     ---. "Radical Republicans." UXL Encyclopedia of U.S.
                     History, vol. 7, UXL, 2009, pp. 1285-86. Gale in Context:
                     Middle School, link.gale.com/apps/doc/CX3048900505/
-                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=f2630b40. Accessed 22
+                    MSIC. Accessed 22
                     May 2025.
                 </p>
                 <p>
                     ---. "Thirteenth Amendment." UXL Encyclopedia of U.S.
                     History, vol. 8, UXL, 2009, pp. 1553-55. Gale in Context:
                     Middle School, link.gale.com/apps/doc/CX3048900610/
-                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=24071897. Accessed 22
+                    MSIC. Accessed 22
                     May 2025.
                 </p>
                 <p>
@@ -478,7 +478,7 @@ export const slideData = [
                     Americans, Hispanic Americans and Native North Americans,
                     UXL, 2003. Gale in Context: Middle School,
                     link.gale.com/apps/doc/EJ2107200198/
-                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=a5ea9c54. Accessed 22
+                    MSIC. Accessed 22
                     May 2025.
                 </p>
                 <p>
@@ -487,7 +487,7 @@ export const slideData = [
                     Americans, Hispanic Americans and Native North Americans,
                     UXL, 2003. Gale in Context: Middle School,
                     link.gale.com/apps/doc/EJ2107200198/
-                    MSIC?u=poway_bh&sid=bookmark-MSIC&xid=a5ea9c54. Accessed 22
+                    MSIC. Accessed 22
                     May 2025.
                 </p>
                 <p>
