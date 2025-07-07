@@ -3,6 +3,8 @@
 This Civil War Project was my humanities final, focusing on the evolution of civil rights following the Civil War and the rise of segregation in the South.
 The project was written in ReactJS, featuring a slideshow feature and modern-ish styling. This is my first self-oriented project using any web framework.
 
+See the finalized project in action on [my website!](https://bobboe.live/)
+
 ## Content and Slides
 
 The project features thirteen slides, presented in the order of their origination or ratification/enactment date.
@@ -21,6 +23,19 @@ The project features thirteen slides, presented in the order of their originatio
 12. **Summary** - Recaps the contents of the project
 13. **Citations** - Project citations for authenticity, **see below**
 14. **Mock Trial** - An interactive portion executed during the presentation
+
+## Cloning and Executing
+
+To clone and host the website successfully, make sure Node, npm, and your system are up to date. Then, do the following:
+
+```sh
+git clone https://github.com/bqbbo/civil-war-project.git [dir]
+cd [dir]
+npm i
+npm start
+```
+
+To create a production-ready build, use `npm run build`.
 
 ## Citations
 
